@@ -36,6 +36,6 @@ if selected == 'Fruit Classification':
         if st.button('Predict'):
             prediction = fruit_model.make_predictions(uploaded_file)
             if prediction > 0.5:
-                st.error('Prediction: Rotten Fruit ' +  str(prediction))
+                st.error('Prediction: Rotten Fruit ')
             else:
-                st.success('Prediction: Fresh Fruit ' +  str(prediction))
+                st.success('Prediction: Fresh Fruit ')
