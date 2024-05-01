@@ -14,7 +14,7 @@ from FruitModel import FruitModel
 with st.sidebar:
     selected = option_menu('Industrial Project', [
         'Fruit Classification',
-        'Second Prediction',
+        # 'Second Prediction',
     ],
         icons=['','activity',],
         default_index=0)

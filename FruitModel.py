@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 class FruitModel:
 
     def __init__(self):
-        self.model = self.load_model('fruit_classification_model.h5')
+        self.model = self.load_model('Fruit_classification_model.h5')
 
     def load_model(self, model_path):
         return load_model(model_path)
