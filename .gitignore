@@ -1,0 +1,6 @@
+.vscode
+.venv
+
+working/
+
+**/.DS_Store
